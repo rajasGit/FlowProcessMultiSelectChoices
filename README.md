@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FlowDynamicRedirect
 ===================
 
@@ -31,3 +32,9 @@ Instructions( When NOT using Salesforce Ant)
 3. Create the custom fields on the opportunity line item object manually.
 4. Use the IDE or any other MD API based tool to create the Flow includes in this package
 
+=======
+FlowProcessMultiSelectChoices
+=============================
+
+Flow Sample to show how you can process through a multi-select choices in a loop.
+>>>>>>> b9faeb9aa068d56465a92bd0850a6d4942d05436
