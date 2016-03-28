@@ -53,6 +53,8 @@ global class ListHelper implements Process.Plugin{
     global Process.PluginResult invoke(Process.PluginRequest request) {    
 
         String inputList = (String) request.inputParameters.get('inputList');
+        inputList = inputList.removeStart('[');
+        inputList = inputList.removeEnd(']');
         Map<String,Object> result = new Map<String,Object>();
         if (inputList==null || inputList=='') {
             result.put('nextItem', null);
